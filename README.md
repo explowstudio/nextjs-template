@@ -38,6 +38,24 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Folder structure
+
+It's important to note that the folder structure is just a base, and may vary between projects.
+
+### Layouts Components
+
+The `layouts` folder is used for the pages layouts.
+
+```
+- layouts
+  - Layout
+    - index.ts
+    - Layout.tsx
+    - Layout.styles.ts
+    - Layout.stories.tsx
+    - Layout.test.tsx
+  - index.ts  
+```
+
 ### User Interface Components
 
 The `ui` folder is used for the global components.
@@ -48,6 +66,7 @@ The `ui` folder is used for the global components.
     - index.ts
     - Component.tsx
     - Component.styles.ts
+    - Component.stories.tsx
     - Component.test.tsx
   - index.ts  
 ```
