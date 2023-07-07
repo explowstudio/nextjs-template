@@ -8,6 +8,7 @@
 - [Stitches](https://stitches.dev/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [Storybook](https://storybook.js.org/)
 
 ## Getting Started
 
@@ -65,7 +66,7 @@ The `layouts` folder is used for the pages layouts.
     - Layout.styles.ts
     - Layout.stories.tsx
     - Layout.test.tsx
-  - index.ts  
+  - index.ts
 ```
 
 ### User Interface Components
@@ -80,5 +81,5 @@ The `ui` folder is used for the global components.
     - Component.styles.ts
     - Component.stories.tsx
     - Component.test.tsx
-  - index.ts  
+  - index.ts
 ```

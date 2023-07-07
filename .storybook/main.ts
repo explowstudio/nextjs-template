@@ -15,14 +15,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
-  features: {
-    storyStoreV7: true,
-  },
   webpackFinal: (config) => {
     // @ts-ignore
     config.resolve.alias = {
       ...config.resolve?.alias,
-      '@': [path.resolve('../src/'), path.resolve('../')],
+      '@': path.resolve(__dirname, "../src"),
     }
     return config
   },
